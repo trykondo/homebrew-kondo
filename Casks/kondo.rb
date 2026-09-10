@@ -1,6 +1,6 @@
 cask "kondo" do
-  version "1.1.20"
-  sha256 "a1030a94aad5c6a482a06a4ad4e4f1bd09840d40e09ff1338eae2e6fdd63167d"
+  version "1.1.21"
+  sha256 "593c75517f66491368248d6fe94a978c8780a343eb8422b46311274fae39428f"
 
   url "https://releases.trykondo.com/desktop/Kondo_#{version}_universal.dmg"
   name "Kondo"
@@ -15,7 +15,7 @@ cask "kondo" do
   end
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Kondo.app"
 
