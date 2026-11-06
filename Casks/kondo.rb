@@ -1,6 +1,6 @@
 cask "kondo" do
-  version "1.2.38"
-  sha256 "7a8b04b3ae8cc11eaed7c0534b68b3a9f04f120573501164c9778284fdc358c5"
+  version "1.2.39"
+  sha256 "f00ac6c0e029a80d7f46a261a9fdc52d6866604fa07bd6b421ece75bf52678da"
 
   url "https://releases.trykondo.com/desktop/Kondo_#{version}_universal.dmg"
   name "Kondo"
